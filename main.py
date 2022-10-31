@@ -25,7 +25,7 @@ async def is_admins(chat_id: int):
     ]
 
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("aistart"))
 async def start(client, message):
         await message.reply_text("ʜɪ! ᴍʏ ɴᴀᴍᴇ ɪs ᴄᴜᴛᴇ sᴜɴʜᴇʀɪ. ɪ'ᴍ ᴀɴ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ")
 
